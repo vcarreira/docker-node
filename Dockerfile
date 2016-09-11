@@ -21,6 +21,8 @@ RUN npm install -g gulp
 
 RUN npm install -g bower
 
+RUN npm install
+
 ENTRYPOINT ["/entrypoint.sh"]
 
 CMD ["npm", "-l"]
